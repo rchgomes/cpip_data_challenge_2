@@ -13,6 +13,8 @@ The Data Challenge 2 will prepare for the analysis of the medium-tier HLWAS. The
 ## Data vector specifications:
 The data vector has length 1080, the first half being $\xi_+$, and the second half being $\xi_-$. For each correlation function, the data vector includes all auto- and cross-correlations between the 8 redshift bins. For each bin combination, there are 15 values for the correlation functions, corresponding to logarithmically spaced values of $\theta$, with $\theta_{\mathrm{min}}=2.5'$ and $\theta_{\mathrm{max}}=200'$.
 
+## Timing:
+So far we still don't have a due date for the challenge results to be submitted. We will be adding new data vectors during the following days until we get to the complete set, and then we will update everyone when there is a due date.
 
 ## Instructions:
 - Make sure your cocoa installation is up to date
