@@ -15,10 +15,14 @@ The data vector has length 1080, the first half being $\xi_+$, and the second ha
 
 ## Covariance specifications:
 Our covariance matrix was computed from a set of 4560 realizations. The format of the file is:
+
 column 0, 1: The covariance matrix indices
-column 2, 3: The mean angle $\theta$ of the element.
+
+column 2, 3: The mean angle $\theta$ of the element
+
 column 4, 5, 6, 7: The tomographic bin indices
-column 8: The total value of the covariance.
+
+column 8: The total value of the covariance
 
 ## Timing:
 Our challenge has now gone through a soft start. Before we go through an official start and impose a due date, we would like the participants to start running some chains with the data and providing feedback on whether everything is working.
