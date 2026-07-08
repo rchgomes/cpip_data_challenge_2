@@ -13,6 +13,13 @@ The Data Challenge 2 will prepare for the analysis of the medium-tier HLWAS. The
 ## Data vector specifications:
 The data vector has length 1080, the first half being $\xi_+$, and the second half being $\xi_-$. For each correlation function, the data vector includes all auto- and cross-correlations between the 8 redshift bins. For each bin combination, there are 15 values for the correlation functions, corresponding to logarithmically spaced values of $\theta$, with $\theta_{\mathrm{min}}=2.5'$ and $\theta_{\mathrm{max}}=200'$.
 
+## Covariance specifications:
+Our covariance matrix was computed from a set of 4560 realizations. The format of the file is:
+column 0, 1: The covariance matrix indices
+column 2, 3: The mean angle $\theta$ of the element.
+column 4, 5, 6, 7: The tomographic bin indices
+column 8: The total value of the covariance.
+
 ## Timing:
 Our challenge has now gone through a soft start. Before we go through an official start and impose a due date, we would like the participants to start running some chains with the data and providing feedback on whether everything is working.
 
