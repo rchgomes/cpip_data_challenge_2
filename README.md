@@ -29,17 +29,11 @@ column 8: The total value of the covariance
 column 9: Placeholder
 
 ## Timing:
-Our challenge has now gone through a soft start. Before we go through an official start and impose a due date, we would like the participants to start running some chains with the data and providing feedback on whether everything is working.
+Results should be submitted by at most March 31st. For any issues you may encounter prior to that, please contact Rafael ([rafael.gomes@stonybrook.edu](mailto:rafael.gomes@stonybrook.edu)), Megan ([zhaoyif@sas.upenn.edu](mailto:zhaoyif@sas.upenn.edu)), and João ([joaoreboucas@arizona.edu](mailto:joaoreboucas@arizona.edu)).
 
 ## Instructions:
 - Make sure your cocoa installation is up to date
 - Build your yaml files with your preferred analysis choices
 - Use the provided data vectors, covariance and n(z) to obtain cosmological constraints.
-- Submit your feedback on any issue you find during testing to Rafael ([rchgomes@sas.upenn.edu](mailto:rchgomes@sas.upenn.edu)), Megan ([zhaoyif@sas.upenn.edu](mailto:zhaoyif@sas.upenn.edu)), and Jiachuan ([jiac.xu@northeastern.edu](mailto:jiac.xu@northeastern.edu)).
-- After the official start, obtain the constraints for all data vectors and submit your results as a pdf with (1) Constraints for all cosmological parameters and nuisance parameters (you may marginalize over the baryonic feedback parameters); and (2) A short description of your analysis choices and additional tests in case you perform them. Additional results may include, for example, an estimate of the baryon suppression ratio for one of the data vectors, or even attempts to identify which data vectors have baryonic feedback and which ones are dark matter only.
-- The results should be submitted to Rafael ([rchgomes@sas.upenn.edu](mailto:rchgomes@sas.upenn.edu)), Megan ([zhaoyif@sas.upenn.edu](mailto:zhaoyif@sas.upenn.edu)), and Jiachuan ([jiac.xu@northeastern.edu](mailto:jiac.xu@northeastern.edu)).
-
-
-### *Validations of data vector done*
-- analyzed the 2pcf for the fiducial mocks✅
-- run full chain (to do)
+- Obtain the constraints for all data vectors and submit your results as (1) A .tex file with your constraints for all cosmological parameters and nuisance parameters (you may marginalize over the baryonic feedback parameters), following exactly the template in output_template.tex; and (2) A short pdf description of your analysis choices and additional tests in case you perform them. Additional results may include, for example, an estimate of the baryon suppression ratio for one of the data vectors, or even attempts to identify which data vectors have baryonic feedback and which ones are dark matter only.
+- The results should be submitted to Rafael ([rafael.gomes@stonybrook.edu](mailto:rafael.gomes@stonybrook.edu)), Megan ([zhaoyif@sas.upenn.edu](mailto:zhaoyif@sas.upenn.edu)), and João ([joaoreboucas@arizona.edu](mailto:joaoreboucas@arizona.edu)).
