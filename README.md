@@ -5,6 +5,8 @@ In the Roman CPIP Data Challenge 2, we aim to
 
 For the main task of the challenge, participants will receive 21 real space cosmic shear data vectors, which correspond to different wCDM cosmologies with distinct IA and baryonic feedback scenarios. The data vectors were measured from realistic mocks, some of them being dark-matter-only, and others being baryonified mocks. The participants should correctly infer the cosmology of the full set of data vectors. In order to do this, they are encouraged to test and compare different approaches for baryonic feedback, reporting it also in their findings.
 
+## Start a team
+Fill the form at https://docs.google.com/forms/d/e/1FAIpQLScXyosaYe8h4LH8TAEq9Cx5hkN_hsPXhs_A_3doZlS-npBbdw/viewform?usp=dialog to register your team for the challenge. 
 
 ## Survey specifications:
 The Data Challenge 2 will prepare for the analysis of the medium-tier HLWAS. The survey footprint area is 2330 square degrees, and the effective number density per redshift bin is 37.78 galaxies per squared arcminutes.
