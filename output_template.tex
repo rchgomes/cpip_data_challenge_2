@@ -1,0 +1,249 @@
+# Data Challenge 2 - Cosmic shear
+\documentclass[%
+reprint,
+superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{physics}
+\usepackage{orcidlink}
+\usepackage{multirow}
+\usepackage{rotating}
+\newcommand{\dbeta}{\Delta\!\beta}
+\newcommand{\dphi}{\Delta\!\phi}
+\newcommand{\dvarphi}{\Delta\!\varphi}
+\newcommand{\todo}[1]{{\color{blue}{[TODO] #1}}}
+\newcommand{\hl}[1]{{\color{red}{#1}}}
+\newcommand{\ssrv}[1]{{\color{red}{#1}}}
+\newcommand{\software}[1]{{\tt #1}}
+\providecommand{\om}{\Omega_{\rm m}}
+\providecommand{\omb}{\Omega_{\rm b}}
+\providecommand{\sig}{S_8}
+\providecommand{\ns}{n_{\rm s}}
+\providecommand{\w}{w_0}
+
+\newcommand{\dvres}{$X.XX^{+X.XX}_{-X.XX}$}
+
+
+
+%\usepackage{lineno}
+\usepackage{afterpage}
+\usepackage{lineno}
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{Template Results for DC2}
+
+\maketitle
+%=========================================================
+% Table 1: DV01-DV07
+%=========================================================
+\begin{table*}[htbp]
+\centering
+\caption{Cosmological and systematic parameter constraints
+for data vectors DV01--DV07 in real space.}
+\label{tab:results_a}
+\footnotesize
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{tabular}{l*{7}{c}}
+\hline\hline
+Parameter & DV01 & DV02 & DV03 & DV04 & DV05 & DV06 & DV07 \\
+\hline
+
+\multicolumn{8}{l}{\textbf{Cosmology}} \\
+\hline
+$\Omega_{\rm m}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$A_s\times 10^9$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$S_8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$n_{\rm s}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Omega_{\rm b}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$h_0$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$w_0$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_\nu$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Photo-$z$}} \\
+\hline
+$\Delta_z^1$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^2$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^3$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^4$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^5$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^6$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^7$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Shear calibration}} \\
+\hline
+$m_1$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_2$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_3$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_4$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_5$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_6$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_7$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Intrinsic alignment (NLA)}} \\
+\hline
+$A_{\rm IA}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\eta_{\rm IA}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline\hline
+\end{tabular}
+\end{table*}
+
+
+%=========================================================
+% Table 2: DV08-DV14
+%=========================================================
+\begin{table*}[htbp]
+\centering
+\caption{Cosmological and systematic parameter constraints
+for data vectors DV08--DV14 in real space.}
+\label{tab:results_b}
+\footnotesize
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{tabular}{l*{7}{c}}
+\hline\hline
+Parameter & DV08 & DV09 & DV10 & DV11 & DV12 & DV13 & DV14 \\
+\hline
+
+\multicolumn{8}{l}{\textbf{Cosmology}} \\
+\hline
+$\Omega_{\rm m}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$A_s\times 10^9$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$S_8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$n_{\rm s}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Omega_{\rm b}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$h_0$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$w_0$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_\nu$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Photo-$z$}} \\
+\hline
+$\Delta_z^1$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^2$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^3$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^4$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^5$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^6$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^7$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Shear calibration}} \\
+\hline
+$m_1$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_2$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_3$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_4$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_5$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_6$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_7$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Intrinsic alignment (NLA)}} \\
+\hline
+$A_{\rm IA}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\eta_{\rm IA}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline\hline
+\end{tabular}
+\end{table*}
+
+
+%=========================================================
+% Table 3: DV15-DV21
+%=========================================================
+\begin{table*}[htbp]
+\centering
+\caption{Cosmological and systematic parameter constraints
+for data vectors DV15--DV21 in real space.}
+\label{tab:results_c}
+\footnotesize
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{tabular}{l*{7}{c}}
+\hline\hline
+Parameter & DV15 & DV16 & DV17 & DV18 & DV19 & DV20 & DV21 \\
+\hline
+
+\multicolumn{8}{l}{\textbf{Cosmology}} \\
+\hline
+$\Omega_{\rm m}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$A_s\times 10^9$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$S_8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$n_{\rm s}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Omega_{\rm b}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$h_0$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$w_0$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_\nu$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Photo-$z$}} \\
+\hline
+$\Delta_z^1$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^2$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^3$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^4$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^5$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^6$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^7$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\Delta_z^8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Shear calibration}} \\
+\hline
+$m_1$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_2$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_3$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_4$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_5$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_6$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_7$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$m_8$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline
+\multicolumn{8}{l}{\textbf{Intrinsic alignment (NLA)}} \\
+\hline
+$A_{\rm IA}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+$\eta_{\rm IA}$ & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres & \dvres \\
+
+\hline\hline
+\end{tabular}
+\end{table*}
+
+\end{document}
